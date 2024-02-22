@@ -1,0 +1,36 @@
+*  /*Afectará todo*/
+{
+    margin: 25px; /*Para el margen invisible de toda la pagina*/
+}
+
+
+body
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  /*Afecta a todo el documento*/
+    background-color:rgb(119, 255, 216);
+}
+
+h1
+{
+    padding: 10px;  /*El relleno-espacio, como el margen pero invisible en esta etiqueta especifica*/
+    border: 15px;
+    border-style: solid;  /*Coloca un borde con el diseño que queramos*/
+    border-radius: 25px;  /*Para redondear el borde*/
+    color:brown;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: lowercase;  /*Cambia de mayuscula a minuscula y viceversa*/
+    font-style: italic;  /*Cursiva eh?*/
+}
+
+p
+{
+    color: blue;
+    text-align: justify;
+    background-color: azure;  /*Como un subrayado de resaltador, el fondo de esa etiqueta*/
+}
+
+img
+{
+    width: 30%;
+}
